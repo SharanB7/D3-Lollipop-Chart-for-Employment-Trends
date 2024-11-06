@@ -4,10 +4,7 @@ This project is an interactive data visualization built using D3.js v7, showcasi
 
 Here's a short demo of the project in action:
 
-<video width="600" controls>
-  <source src="utils/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo GIF](utils/demo.gif)
 
 ## Features
 
