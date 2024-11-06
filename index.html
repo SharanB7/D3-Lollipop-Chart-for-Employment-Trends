@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>D3 DataVis</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="js/main.js"></script>
+        <style>
+            svg {
+                width: 1400px;
+                height: 700px;
+            }
+            h1 {
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center">D3 Lollipop Chart for Employment Trends</h1>
+            
+            <div class="row">
+                <div class="col-1">Country: </div>
+                <div class="col-3">
+                    <select id='country-select' style='width: 100%;' onchange='drawLollipopChart();'></select>
+                </div>
+            </div>
+            <div id="myDataVis">
+                <svg id = "lollipopPlotSvg"></svg>
+            </div>
+        </div>
+    </body>
+</html> 
